@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fjalla+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(233, 12, 12);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#titulo{
+    font-family: "Alata", sans-serif;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("/src/assets/uvas.jpg");
+    background-size: contain;
+    background-size: 100% 180%;
+    background-repeat: no-repeat;
+    
+    font-size: 50px;
+    height: 180px;
+}
+
+header{
+    background: whitesmoke;
+    color:  rgb(33, 33, 134);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul {
+    background: violet;
+
+
+}
