@@ -67,3 +67,28 @@ body{
     background-color: var(--cor-do-fundo);
     color: var(--cor-da-letra);
 }
+main{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+.produto{
+    width: 204px;
+    height: 308px; 
+    margin: 40px;
+    border: 2px solid #fff;
+    border-radius: 32px;
+}
+.produto h3{
+    padding-left: 20px;
+}
+.produto img{
+    width: 200px;
+    height: 200px; 
+    border-radius: 30px;
+}
+.preco{
+    padding: 20px;
+    color:#d9d7ef;
+    font-size: 1.5rem;
+}
