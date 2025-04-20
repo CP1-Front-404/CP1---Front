@@ -72,6 +72,12 @@ main{
     flex-wrap: wrap; 
     justify-content: center; 
 }
+#conteudo{
+    display: grid; 
+    grid-template-columns: 1fr 220px; 
+    gap:10px; 
+
+}
 .produto{
     width: 202px;
     height: 308px; 
