@@ -122,7 +122,17 @@ aside{
     width: 200px;
     padding: 20px;
     background: #6355a8;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
+
+aside img {
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
 footer{
     background: #3f3574;
     color:#d9d7ef;
@@ -130,7 +140,6 @@ footer{
     margin-top: auto;
 }
 
-/* modificaçaõ ,retirar dps esse coomit*/
 .footer-content{
     display: flex;
     justify-content: space-around;
