@@ -94,10 +94,14 @@ main{
     font-size: 1.5rem;
 }
 button{
-    background-color:#e8f1f9;
+    background-color:#57499A;
     margin-top: 10px;
     margin-left: 30px;
     padding: 10px 45px;
     border-radius: 30px;
     cursor: pointer;
+}
+button:hover{
+    background: #2a2c47;
+    color:#d9d7ef;
 }
