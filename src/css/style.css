@@ -39,7 +39,7 @@ body{
 }
 
 header{
-    background:rgb(57, 18, 150);
+    background:#3f3574;
     color:  rgb(33, 33, 134);
     padding: 20px;
     display: flex;
@@ -73,10 +73,10 @@ main{
     justify-content: center; 
 }
 .produto{
-    width: 204px;
+    width: 202px;
     height: 308px; 
     margin: 40px;
-    border: 2px solid #1f252f;
+    border: 1px solid #1f252f;
     border-radius: 32px;
     background-color: #1f252f;
 }
@@ -104,4 +104,16 @@ button{
 button:hover{
     background: #2a2c47;
     color:#d9d7ef;
+}
+aside{
+    margin:20px;
+    width: 200px;
+    padding: 20px;
+    background: #6355a8;
+}
+footer{
+    background: #3f3574;
+    color:#d9d7ef;
+    padding:20px 20px;
+    margin-top: auto;
 }
