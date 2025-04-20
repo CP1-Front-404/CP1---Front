@@ -80,6 +80,8 @@ main{
     border-radius: 32px;
     background-color: #1f252f;
 }
+
+
 .produto h3{
     padding-left: 20px;
 }
@@ -93,6 +95,7 @@ main{
     color:#d9d7ef;
     font-size: 1.5rem;
 }
+
 button{
     background-color:#57499A;
     margin-top: 10px;
@@ -104,7 +107,10 @@ button{
 button:hover{
     background: #2a2c47;
     color:#d9d7ef;
+    transition: transform 0.3s;
+    transform: translateY(-5px);
 }
+
 aside{
     margin:20px;
     width: 200px;
