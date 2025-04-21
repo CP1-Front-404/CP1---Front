@@ -43,7 +43,7 @@ header{
     color:  rgb(33, 33, 134);
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 header nav ul {
@@ -51,6 +51,7 @@ header nav ul {
     padding: 0;
     margin: 10px 0;
     display: flex;
+    gap: 2rem;
 
 
 }
@@ -75,9 +76,18 @@ main{
 #conteudo{
     display: grid; 
     grid-template-columns: 1fr 220px; 
-    gap:10px; 
+    gap: 20px; 
+    justify-content: center;
 
 }
+.listaprodutos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  }
+
 .produto{
     width: 202px;
     height: 308px; 
